@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery Slider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pads">
+        <button id="zoom-out" class="active">
+            <span class="glyphicon glyphicon-zoom-out"></span>
+        </button>
+        <button id="zoom-in">
+            <span class="glyphicon glyphicon-zoom-in"></span>
+        </button>
+    </div>
+
+    <div id="drag-layer"></div>
+
+    <div class="container">
+        <div class="gallery">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
